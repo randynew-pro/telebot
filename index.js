@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const TOKEN = "713630426:AAHvPskKaEzWx-RmZ9l2qw2zG6kH4wIAgno" :
+const TOKEN = "" :
 const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
 
 const EMOJIS = ["😂", "🔥", "❤️", "🥲", "😎", "👍", "🤖", "🎉"];
